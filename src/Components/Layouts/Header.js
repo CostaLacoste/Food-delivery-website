@@ -7,10 +7,11 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <>
+        <header>
         <Navbar collapseOnSelect expand="lg">
         <Container>
             <Navbar.Brand href="#home">
-                <link>
+                <link to="/" className='logo'>
                     <img scr={Logo} alt="Logo" className='img-fluid' />
                 </link>
             </Navbar.Brand>
@@ -33,6 +34,7 @@ function Header() {
             </Navbar.Collapse>
         </Container>
         </Navbar>
+        </header>
         </>
     );
 }
