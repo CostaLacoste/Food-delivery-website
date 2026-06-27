@@ -79,7 +79,7 @@ const mockData = [
 ];
 
 // Rating logical data
-const renderRatingIcons = () => {
+const renderRatingIcons = (rating) => {
     const stars = [];
 
     for(let i = 0; i < 5; i++){
