@@ -29,7 +29,7 @@ function Section2() {
          <section className='about_section'>
             <Container>
                 <Row>
-                    <Col lg={{span:8, offset:2}} className='text_center'>
+                    <Col lg={{span:8, offset:2}} className='text-center'>
                         <h2>The burger tastes better when you eat it with your family</h2>
                         <p>
                             Porta semper lacus cursus, feugiat primis ultrice a ligula risus

@@ -73,7 +73,7 @@
     padding-top: 70px;
     padding-bottom: 30px;
 }
-.about_box about_icon img {
+.about_box .about_icon img {
     max-width: 25%;
 }
 .about_box h4{
@@ -86,12 +86,19 @@
 .about_box p{
     padding: 0 20px;
 }
-
-
-
-
-
 /* Media query modiles */
+@media (max-width: 992px){
+    .about_section h2{
+        font-size: 2.5rem;
+    }
+    .about_section p{
+        padding: 20px 0;
+    }
+    .about_box p{
+        padding: 0;
+    }
+}
+
 @media (max-width: 767px){
     .hero_section .hero_text h1{
         font-size: 5.5rem;
