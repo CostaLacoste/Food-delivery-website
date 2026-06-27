@@ -11,9 +11,9 @@ function Header() {
         <Navbar collapseOnSelect expand="lg">
         <Container>
             <Navbar.Brand href="#home">
-                <link to="/" className='logo'>
-                    <img scr={Logo} alt="Logo" className='img-fluid' />
-                </link>
+                <Link to="/" className='logo'>
+                    <img src={Logo} alt="Logo" className='img-fluid' />
+                </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">

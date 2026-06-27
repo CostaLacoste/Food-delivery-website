@@ -1,0 +1,10 @@
+/* Home hero section 1*/
+
+.hero_section {
+    position: relative;
+    background: url('../Assets/assets/hero/hero-1.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 170px;
+    padding-bottom: 90px;
+}

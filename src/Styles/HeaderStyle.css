@@ -65,7 +65,7 @@ header .nav-link:hover {
     color: var(--yellow);
 }
 
-header .card {
+header .cart {
     position: relative;
     top: -0.4375rem;
 }
