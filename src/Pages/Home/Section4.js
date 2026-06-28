@@ -43,9 +43,7 @@ function Section4(){
             </Container>
         </section>
 
-        <section className='bg_parallax_scroll'>
-            
-        </section>
+        <section className='bg_parallax_scroll'></section>
         </>
     );
 }
