@@ -332,5 +332,7 @@
         width: 70px;
         height: auto;
     }
-
+    .blog_section .carousel.slide .carousel-inner .carousel-caption p{
+        font-size: 1rem;
+    }
 }
