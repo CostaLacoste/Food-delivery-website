@@ -265,6 +265,7 @@
     background: url('../Assets/assets/blog/reviews.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
+    overflow: hidden;
 }
 .blog_section .user_img img{
     width: 100px;
@@ -334,6 +335,5 @@
     }
     .blog_section .carousel.slide .carousel-inner .carousel-caption p{
         font-size: 1rem;
-        
     }
 }
